@@ -42,14 +42,30 @@ public class PrintReceipt {
         System.out.println("\n  \n  \n");
 
         System.out.println("\t My muscle memory notes;");
+        System.out.println("From Tuesday's Class - When I want to print time");
+        int number = 8888;
+        System.out.printf(" %c", number);
+        System.out.println("****This is how to print the Day + Month + date in the m/d/y format***");
+
+        int number2 = 8888;
+        System.out.printf(" %c", number2);
+        System.out.println("This is how To print the current time");
         String timeOnly = String.format("%tr", date);
+        int number3 = 8888;
+        System.out.printf(" %c", number3);
+        System.out.println("And This is the current time");
         System.out.println(timeOnly);
 
         Date today = new Date();
         String dayMonthYear = String.format("%tA %tB %tD", today, today, today );
+        int number4 = 8888;
+        System.out.printf(" %c", number4);
+        System.out.println("And This is the current Date");
         System.out.println(dayMonthYear);
 
-        System.out.println(" ");
+        int number5 = 8888;
+        System.out.printf(" %c", number5);
+        System.out.println("And These are the current Date (Day Month dayOftheMonth) in short form ");
 
         String dayMonthYearLowercase = String.format("%ta %tb %td", today, today, today );
         System.out.println(dayMonthYearLowercase);
